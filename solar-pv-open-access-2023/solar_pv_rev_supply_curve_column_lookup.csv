@@ -1,0 +1,24 @@
+﻿reV Column,Distribute to Public?,Units,Description
+area_sq_km,Yes,km2,Developable area after spatial exclusions applied
+capacity_mw_ac,Yes,MW,Capacity of system based on area_sq_km * capacity density assumption / AC_DC ratio
+capacity_mw_dc,Yes,MW,Capacity of system based on area_sq_km * capacity density assumption 
+cnty_fips,Yes,N/A,County FIPS of 11.5km grid-cell
+country,Yes,N/A,Country of 11.5km grid-cell
+county,Yes,N/A,County name of 11.5km grid-cell
+dist_km,Yes,kilometers,Distance between the grid-cell centroid and nearest available electrical substation. Used in lcot calculations. 
+elevation,Yes,meters,Mean elevation of 11.5km grid-cell
+latitude,Yes,degrees,Centroid latitude of the 11.5km grid-cell
+lcot,Yes,$/MWh,"Levelized cost of transmission. Includes spur-transmission, point-of-interconnection, and reinforcement costs."
+longitude,Yes,degrees,Centroid longitude of the 11.5km grid-cell
+mean_cf_ac,Yes,ratio,Mean capacity factor (AC) across 11.5km grid-cell
+mean_cf_dc,Yes,ratio,Mean capacity factor (DC) across 11.5km grid-cell
+mean_lcoe,Yes,$/MWh,Mean power plant levelized cost of energy across 11.5km grid-cell
+mean_res,Yes,GHI kWh/m2/day,Mean global horizontal irriandiance of 11.5km grid-cell
+reg_mult,Yes,unitless,"Regional capital cost multiplier to capture taxes, labor, land lease regional differences"
+reinforcement_cost_per_mw_ac,Yes,$/MWac,Non-levelized reinforcement transmission capital costs per MW (AC)
+reinforcement_dist_km,Yes,kilometers,Distance between the connected substation and nearest regional load center. Used in lcot calculations. 
+sc_point_gid,Yes,N/A,Unique ID that can be match to other reV supply curve tables
+state,Yes,N/A,State of 11.5km grid-cell
+timezone,Yes,N/A,"Timezone of 11.5km grid-cell, expressed as an hourly offset from UTC."
+total_lcoe,Yes,$/MWh,All-in LCOE. Includes site-lcoe + lcot 
+trans_cap_cost_per_mw_ac,Yes,$/MWac,Non-levelized spur and point-of-interconnection transmission capital costs per MW (AC)
