@@ -1,0 +1,2 @@
+key = '9d53b17571c5360e9829dedfd14ff3406c0761f1'
+usda_qwik_stats_key = '597B6B3C-1DD4-377F-AE50-97B64E360F41' 
