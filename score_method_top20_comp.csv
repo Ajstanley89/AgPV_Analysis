@@ -1,0 +1,51 @@
+,county,state,EW_AgPV_cobenefits_score,county,state,Theme_Weighting_Score
+0,Cherokee,Oklahoma,1.0,Cherokee,Oklahoma,1.0
+1,Mesa,Colorado,0.9946624074614571,Creek,Oklahoma,0.9976780980445863
+2,Placer,California,0.9895348419870046,Mesa,Colorado,0.9939315187401617
+3,Navajo,Arizona,0.9755758854882124,San Juan,New Mexico,0.9903997726343882
+4,Douglas,Oregon,0.9722546670055644,Douglas,Oregon,0.9852310265551893
+5,Shasta,California,0.9711568869130929,Montgomery,Texas,0.9832812646544372
+6,Lubbock,Texas,0.9698259751971544,Atoka,Oklahoma,0.9771948635203541
+7,Faulkner,Arkansas,0.9680286084176841,Coos,Oregon,0.9710689859782516
+8,San Juan,New Mexico,0.961990013056234,Harrison,Texas,0.9709068630599063
+9,Dorchester,South Carolina,0.9602248294440654,Navajo,Arizona,0.9704786378334177
+10,Yakima,Washington,0.9601708895632165,Faulkner,Arkansas,0.9687728197860498
+11,San Joaquin,California,0.958566438497633,Placer,California,0.9675343570289606
+12,Creek,Oklahoma,0.9584316272364234,Ravalli,Montana,0.9663545460167541
+13,Lewis,Washington,0.9579944472971235,Lewis,Washington,0.9632437031521515
+14,Pima,Arizona,0.9542758469495224,Sequoyah,Oklahoma,0.9597231385638932
+15,Atoka,Oklahoma,0.9522031903425372,Cascade,Montana,0.9572492169205576
+16,Harrison,Texas,0.9506004975484492,Lubbock,Texas,0.9570000777596597
+17,Pierce,Washington,0.9497183228358066,Linn,Oregon,0.9532278600072656
+18,Sequoyah,Oklahoma,0.9485358973358157,Pierce,Washington,0.9530947762234119
+19,Sutter,California,0.9470949024390848,Cleveland,Oklahoma,0.9530786761236618
+20,Solano,California,0.9434841509905342,,,
+21,Coos,Oregon,0.9402104714547559,,,
+22,Stevens,Washington,0.93894987557189,,,
+23,Uintah,Utah,0.9379230496288423,,,
+24,Spokane,Washington,0.9376937918955267,,,
+25,Tattnall,Georgia,0.9357691154393568,,,
+26,Thurston,Washington,0.9346103372471117,,,
+27,Montgomery,Alabama,0.933500842229772,,,
+28,Kay,Oklahoma,0.9331487180261276,,,
+29,Laurens,Georgia,0.9328014646140603,,,
+30,Limestone,Texas,0.9317848189309799,,,
+31,Cleveland,Oklahoma,0.9311464077468725,,,
+32,Socorro,New Mexico,0.9265859144539479,,,
+33,Montgomery,Texas,0.9262719896252646,,,
+34,Greenwood,South Carolina,0.9259289270725376,,,
+35,Amite,Mississippi,0.9240241232931092,,,
+36,Chester,South Carolina,0.9236015329267722,,,
+37,Lassen,California,0.923031406272815,,,
+38,York,South Carolina,0.9227183357227647,,,
+39,Marathon,Wisconsin,0.9225288395734212,,,
+40,Tulsa,Oklahoma,0.9214856671769626,,,
+41,Wilkinson,Mississippi,0.9201247634364434,,,
+42,Linn,Oregon,0.9195502984039067,,,
+43,Marshall,Oklahoma,0.9193964113258778,,,
+44,Coconino,Arizona,0.9172713129767257,,,
+45,Sanders,Montana,0.9171514576444151,,,
+46,Walton,Florida,0.9169792189733137,,,
+47,Santa Fe,New Mexico,0.9157768282337831,,,
+48,Hawkins,Tennessee,0.9152184035585572,,,
+49,Cascade,Montana,0.9148625061991222,,,

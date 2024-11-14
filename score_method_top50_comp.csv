@@ -1,0 +1,51 @@
+,county,state,EW_AgPV_cobenefits_score,county,state,Theme_Weighting_Score
+0,Cherokee,Oklahoma,1.0,Cherokee,Oklahoma,1.0
+1,Mesa,Colorado,0.9980436244577149,Creek,Oklahoma,0.998597996540849
+2,Placer,California,0.9961464502168629,Mesa,Colorado,0.9967471280994207
+3,Coos,Oregon,0.9959237971340473,Coos,Oregon,0.9939655159426231
+4,Douglas,Oregon,0.9842385453406448,Douglas,Oregon,0.9935172314384056
+5,Shasta,California,0.977554673286623,San Juan,New Mexico,0.9884144704091478
+6,Linn,Oregon,0.974229054890625,Atoka,Oklahoma,0.9809547211692854
+7,Navajo,Arizona,0.9739924338986772,Placer,California,0.9780998882123217
+8,Coconino,Arizona,0.9718359480518044,Linn,Oregon,0.9774120655579375
+9,Pima,Arizona,0.9642820621229578,Navajo,Arizona,0.9745353387674517
+10,Creek,Oklahoma,0.9640602532020144,Harrison,Texas,0.9727401005789256
+11,San Juan,New Mexico,0.9622846301509209,Coconino,Arizona,0.9714225936293105
+12,Atoka,Oklahoma,0.9610607217013541,Montgomery,Texas,0.9702418139591575
+13,Dorchester,South Carolina,0.9560857846579491,Lewis,Washington,0.9643723285486753
+14,San Joaquin,California,0.9556781835108711,Faulkner,Arkansas,0.9620123740580081
+15,Lewis,Washington,0.9550545906611346,Sequoyah,Oklahoma,0.960670708615025
+16,Pierce,Washington,0.9537264685299545,Pierce,Washington,0.957874529497749
+17,Harrison,Texas,0.9532174095460944,Ravalli,Montana,0.9576403282187207
+18,Yakima,Washington,0.9488931523068246,Cascade,Montana,0.9544271232806728
+19,Sequoyah,Oklahoma,0.9473722711417317,Cleveland,Oklahoma,0.9543672737129738
+20,Spokane,Washington,0.9465387777458041,,,
+21,Faulkner,Arkansas,0.9462852034593486,,,
+22,Sutter,California,0.9437997198259075,,,
+23,Solano,California,0.9417730992579935,,,
+24,Lubbock,Texas,0.9394244576407943,,,
+25,Uintah,Utah,0.9374879209656807,,,
+26,Cleveland,Oklahoma,0.9350413314356693,,,
+27,Limestone,Texas,0.9345660450333687,,,
+28,Tattnall,Georgia,0.9336170214171522,,,
+29,Benton,Oregon,0.9331981146525105,,,
+30,Umatilla,Oregon,0.9329258387180256,,,
+31,Montgomery,Alabama,0.9327871962575434,,,
+32,Thurston,Washington,0.9323757327075938,,,
+33,Laurens,Georgia,0.9305942077818341,,,
+34,Socorro,New Mexico,0.9277511236014117,,,
+35,Stevens,Washington,0.9274132976758731,,,
+36,Lassen,California,0.9272599533339315,,,
+37,Cascade,Montana,0.922866737546378,,,
+38,Tulsa,Oklahoma,0.9176674081882582,,,
+39,Hood River,Oregon,0.9152681371302936,,,
+40,Amite,Mississippi,0.9143651547206862,,,
+41,Walton,Florida,0.9134332887551531,,,
+42,Clallam,Washington,0.9129191768191705,,,
+43,Siskiyou,California,0.9124496813240113,,,
+44,Marshall,Oklahoma,0.9112778442771721,,,
+45,Wilkinson,Mississippi,0.911248476936635,,,
+46,Marathon,Wisconsin,0.911142146946335,,,
+47,Carroll,Arkansas,0.9101085896008164,,,
+48,Lane,Oregon,0.909784979387859,,,
+49,Yolo,California,0.9090643486059385,,,

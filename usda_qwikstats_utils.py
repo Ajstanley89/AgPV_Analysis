@@ -11,7 +11,6 @@ class usda_qwikstats_utils():
         """
         base_qwik_stats_url = f'https://quickstats.nass.usda.gov/api/api_GET/?key={self.api_key}&'
         search_param_str = '&'.join([key + '=' + value for key, value in search_param_dict.items()])
-        print(base_qwik_stats_url + search_param_str)
         return base_qwik_stats_url + search_param_str
 
     def get_qwikstats_data(self, search_params):
