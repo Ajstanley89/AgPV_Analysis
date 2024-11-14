@@ -33,6 +33,7 @@ class agpvVisualizer():
         self.tribal_fips = tribal_fips
         self.df = df
         self.save_dir = save_dir
+        self.df_ag_filtered = self.df.loc[self.df['AgPV_crop_totals'] > 0, :]
         
     def make_bar_chart(self, x_label, title_start = 'Solar Supply', top_n=20, x='generation_potential_ac', 
                        initial_sort_value='Theme_Weighting_Score', logx=False, graph_kwargs={}):
@@ -67,18 +68,18 @@ class agpvVisualizer():
         if logx:
             plt.xscale('log')     
         
-        plt.savefig(os.path.join(self.save_dir, f'{x}_bar_chart_top_{top_n}.png'))
+        plt.savefig(os.path.join(self.save_dir, f'{x}_bar_chart_top_{top_n}.png'), bbox_inches='tight')
         
-        plt.show()
+        # plt.show()
         
         return g
         
     def make_scatter_plot(self, suptitle, x='generation_potential_ac', hue='Solar_supply_per_land_area', 
                           y='Theme_Weighting_Score', size='AgPV_crop_totals', annot_col='Theme_Weighting_Score',
-                          palette=sns.color_palette("YlOrBr", as_cmap=True),
+                          palette=sns.color_palette("YlOrBr", as_cmap=True), filter_crops = False,
                           top_n = 5, logx=False, logy=False, savefig=True, graph_kwargs={}, annot_kwargs={}):
         
-        scatter_df = self.df.copy()        
+        scatter_df = self.df_ag_filtered.copy() if filter_crops else self.df.copy()     
 
         fig, ax = plt.subplots(1,1, figsize=(10,10), dpi=300)
         g = sns.scatterplot(scatter_df, x=x, y=y, size=size, sizes=(10,300), hue=hue, palette=palette, edgecolor='k', alpha=0.75, ax=ax, **graph_kwargs)
@@ -103,7 +104,7 @@ class agpvVisualizer():
         plt.tight_layout()
         
         if savefig:
-            plt.savefig(os.path.join(self.save_dir, f'{suptitle}_scatter_top_{top_n}.png'))
+            plt.savefig(os.path.join(self.save_dir, f'{suptitle}_scatter_top_{top_n}.png'), bbox_inches='tight')
                 
         return g
         
